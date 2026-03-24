@@ -1,122 +1,105 @@
 [
-    {
-      "player-image": "https://i.ibb.co.com/d4jGCSFF/images.jpg",
-      "player-name": "Mustafizur Rahman",
-      "player-country": "Bangladesh",
-      "playing-role": "Fast Bowler",
-      "rating": 9.2,
-      "bating-style": "Left-handed",
-      "bowling-style": "Left-arm Fast-medium",
-      "price": "450,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/s9pQHFct/Untitled-18.jpg",
-      "player-name": "Towhid Hridoy",
-      "player-country": "Bangladesh",
-      "playing-role": "Batsman",
-      "rating": 8.9,
-      "bating-style": "Right-handed",
-      "bowling-style": "N/A",
-      "price": "380,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/2YnsPLN0/Najmul-Hossain-Shanto-celebrates-after-scoring-a-century-during-the-Asia-Cup-group-stage-match-again.jpg",
-      "player-name": "Najmul Hossain Shanto",
-      "player-country": "Bangladesh",
-      "playing-role": "Batsman",
-      "rating": 8.7,
-      "bating-style": "Left-handed",
-      "bowling-style": "Right-arm Off-break",
-      "price": "350,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/nsrJVj9Z/l-45516-014756-updates.jpg",
-      "player-name": "Taskin Ahmed",
-      "player-country": "Bangladesh",
-      "playing-role": "Fast Bowler",
-      "rating": 9.0,
-      "bating-style": "Left-handed",
-      "bowling-style": "Right-arm Fast",
-      "price": "410,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/5hRVN6sc/dasun-shanaka-under-scrutiny-for-leaving-first-class-match-t-12-02-2025.jpg",
-      "player-name": "Mehidy Hasan Miraz",
-      "player-country": "Bangladesh",
-      "playing-role": "All-rounder",
-      "rating": 9.1,
-      "bating-style": "Right-handed",
-      "bowling-style": "Right-arm Off-break",
-      "price": "425,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/wNHQDFWV/hales-1920x1080-691dbed913bd5.jpg",
-      "player-name": "Dasun Shanaka",
-      "player-country": "Sri Lanka",
-      "playing-role": "All-rounder",
-      "rating": 8.5,
-      "bating-style": "Right-handed",
-      "bowling-style": "Right-arm Medium",
-      "price": "280,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/NnKGGg0D/d146b0b0-cace-11f0-8a1e-8f6cb8f8b753.jpg",
-      "player-name": "Alex Hales",
-      "player-country": "England",
-      "playing-role": "Batsman",
-      "rating": 8.8,
-      "bating-style": "Right-handed",
-      "bowling-style": "N/A",
-      "price": "320,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/27b6LNY2/jaker-ali-anik-daily-apand-2509241444.jpg",
-      "player-name": "Jaker Ali Anik",
-      "player-country": "Bangladesh",
-      "playing-role": "Wicketkeeper-Batsman",
-      "rating": 8.2,
-      "bating-style": "Right-handed",
-      "bowling-style": "N/A",
-      "price": "210,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/Q7rxFmvV/Untitled-18.jpg",
-      "player-name": "Naim Sheikh",
-      "player-country": "Bangladesh",
-      "playing-role": "Batsman",
-      "rating": 8.0,
-      "bating-style": "Left-handed",
-      "bowling-style": "N/A",
-      "price": "190,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/67xjC59W/images-1.jpg",
-      "player-name": "Thisara Perera",
-      "player-country": "Sri Lanka",
-      "playing-role": "All-rounder",
-      "rating": 8.4,
-      "bating-style": "Left-handed",
-      "bowling-style": "Right-arm Medium-fast",
-      "price": "260,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/21w0SfR0/images-2.jpg",
-      "player-name": "Shoriful Islam",
-      "player-country": "Bangladesh",
-      "playing-role": "Fast Bowler",
-      "rating": 8.9,
-      "bating-style": "Left-handed",
-      "bowling-style": "Left-arm Medium-fast",
-      "price": "340,000 USD"
-    },
-    {
-      "player-image": "https://i.ibb.co.com/PZTGjSZX/images.jpg",
-      "player-name": "Dawid Malan",
-      "player-country": "England",
-      "playing-role": "Batsman",
-      "rating": 8.6,
-      "bating-style": "Left-handed",
-      "bowling-style": "Right-arm Leg-break",
-      "price": "300,000 USD"
-    }
-  ]
+  {
+    "playerImage": "https://i.ibb.co.com/PZTGjSZX/images.jpg",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Fast Bowler",
+    "rating": 9.2,
+    "batingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm Fast-medium",
+    "price": "450,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/Q7rxFmvV/Untitled-18.jpg",
+    "playerName": "Shoriful Islam",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Fast Bowler",
+    "rating": 8.7,
+    "batingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm Medium-fast",
+    "price": "340,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/qMvhKDHQ/Najmul-Hossain-Shanto-celebrates-after-scoring-a-century-during-the-Asia-Cup-group-stage-match-again.jpg",
+    "playerName": "Taskin Ahmed",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Fast Bowler",
+    "rating": 9.0,
+    "batingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm Fast",
+    "price": "410,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/9mvbrRsq/Taskin-Ahmed-5.jpg",
+    "playerName": "Jaker Ali Anik",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 8.1,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "price": "210,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/1GgXvt9m/l-45516-014756-updates.jpg",
+    "playerName": "Alex Hales",
+    "playerCountry": "England",
+    "playingRole": "Opening Batsman",
+    "rating": 8.8,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "price": "320,000 USD"
+  },
+  {
+    "playerImage": 
+    "https://i.ibb.co.com/gM3KswcK/dasun-shanaka-under-scrutiny-for-leaving-first-class-match-t-12-02-2025.jpg",
+    "playerName": "Dasun Shanaka",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "All-rounder",
+    "rating": 8.5,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm Medium",
+    "price": "280,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/j93RMbqZ/hales-1920x1080-691dbed913bd5.jpg",
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 8.9,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "price": "390,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/qFmwTFYM/jaker-ali-anik-daily-apand-2509241444.jpg",
+    "playerName": "Najmul Hossain Shanto",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 8.6,
+    "batingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm Off-break",
+    "price": "350,000 USD"
+  },
+  {
+    "playerImage": 
+    "https://i.ibb.co.com/yFxdbYyZ/hq720.jpg",
+    "playerName": "Towhid Hridoy",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 9.1,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "price": "380,000 USD"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/fdQcqg0P/images-1.jpg",
+    "playerName": "Nasum Ahmed",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.3,
+    "batingStyle": "Left-handed",
+    "bowlingStyle": "Slow Left-arm Orthodox",
+    "price": "180,000 USD"
+  }
+]
+

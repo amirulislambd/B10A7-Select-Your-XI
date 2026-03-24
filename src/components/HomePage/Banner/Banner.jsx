@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SelectedPlyers = () => {
+const banner = () => {
     return (
         <div className='container mx-auto'>
-            SelectedPlyers
+            
         </div>
     );
 };
 
-export default SelectedPlyers;
+export default banner;

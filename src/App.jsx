@@ -1,8 +1,9 @@
 import { Suspense } from "react";
 import "./App.css";
-
-import AvailablePlyers from "./components/AvailablePlyers/AvailablePlyers";
 import Navbar from "./components/Navbar/Navbar";
+import Banner from "./components/HomePage/banner/banner";
+import Plyers from "./components/HomePage/Plyers/Plyers";
+import AvailablePlyers from "./components/HomePage/Plyers/AvailablePlyers/AvailablePlyers";
 import SelectedPlyers from "./components/SelectedPlyers/SelectedPlyers";
 
 
@@ -17,8 +18,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Suspense fallback={<span className="loading loading-spinner loading-xl "></span>}>
-      <AvailablePlyers promiseFetchPlyers={promiseFetchPlyers} />
+      <Banner />
+      <Suspense
+        fallback={<span className="loading loading-spinner loading-xl "></span>}
+      >
+        <Plyers promiseFetchPlyers={promiseFetchPlyers} />
       </Suspense>
       <SelectedPlyers />
     </>
