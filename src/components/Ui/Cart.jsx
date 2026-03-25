@@ -14,16 +14,16 @@ const Cart = ({
   const handleChoosePlayer = () => {
     if (coin >= 0) {
       (setIsSelected(true),
-        toast.success(plyer.playerName, {
+        toast.success(`${plyer.playerName} Selected`, {
           position: "top-center",
-          autoClose: 800,
+          autoClose: 1500,
         }),
         setCoins(coins - plyer.price));
       setSelectedPlayers([...selectedPlayers, plyer]);
     } else {
       toast.warning("Not enough coin to purchase this player", {
         position: "top-center",
-        autoClose: 500,
+        autoClose: 1500,
       });
       return;
     }

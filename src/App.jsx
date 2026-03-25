@@ -6,6 +6,7 @@ import Plyers from "./components/HomePage/Plyers/Plyers";
 import { ToastContainer } from "react-toastify";
 import Banner from "./components/HomePage/Banner/Banner";
 import Footer from "./components/HomePage/Footer/Footer";
+import Subscribe from "./components/HomePage/Subscribe/Subscribe";
 
 
 const FetchPlyers = async()=>{
@@ -15,7 +16,7 @@ const FetchPlyers = async()=>{
 
 
 function App() {
-  const [coins, setCoins]=useState(6000000)
+  const [coins, setCoins]=useState(1000000)
   const promiseFetchPlyers = FetchPlyers()
   return (
     <>
@@ -30,7 +31,7 @@ function App() {
         coins={coins}
         />
       </Suspense>
-      
+      <Subscribe/>
       <Footer/>
       <ToastContainer />
     </>

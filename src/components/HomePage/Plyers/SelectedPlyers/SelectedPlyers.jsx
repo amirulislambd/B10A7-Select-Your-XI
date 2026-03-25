@@ -12,7 +12,7 @@ const SelectedPlyers = ({
   const handleDeleteSelectedPlayer = (player) => {
     toast.warning(`Delete cart of ${player.playerName}`, {
       position: "top-center",
-      autoClose: 800,
+      autoClose: 1500,
     });
     console.log(setSelectedPlayers);
     const filterPlayers = selectedPlayers.filter(

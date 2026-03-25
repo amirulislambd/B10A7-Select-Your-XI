@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black flex flex-col py-5 md:py-10 mt-10 md:mt-20">
+    <div className="bg-black flex flex-col pt-5 md:pt-30 ">
       <img src="" alt="" />
       <div className="flex flex-col md:flex-row  justify-between gap-4 container mx-auto">
       <div>
@@ -32,8 +32,8 @@ const Footer = () => {
         </div>
       </div>
       </div>
-      <div className="flex flex-col items-center justify-center">
-      <div className="divider border-t border-white container mx-auto "></div>
+      <div className="flex flex-col items-center justify-center mb-5">
+      <div className="divider border-t  border-white container mx-auto "></div>
         <p className="text-gray-300">@2024 Your Company All Rights Reserved.</p>
       </div>
     </div>
