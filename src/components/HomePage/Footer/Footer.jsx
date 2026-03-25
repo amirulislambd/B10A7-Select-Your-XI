@@ -1,9 +1,9 @@
-import React from "react";
+import logo from '../../../assets/logo-footer.png'
 
 const Footer = () => {
   return (
-    <div className="bg-black flex flex-col pt-5 md:pt-30 ">
-      <img src="" alt="" />
+    <div className="bg-black flex flex-col items-center justify-center pt-5 md:pt-30 ">
+      <img className='mb-4 md:mb-16' src={logo} alt="" />
       <div className="flex flex-col md:flex-row  justify-between gap-4 container mx-auto">
       <div>
         <h2 className="font-semibold text-white">About Us</h2>

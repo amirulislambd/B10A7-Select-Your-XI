@@ -100,6 +100,25 @@
     "batingStyle": "Left-handed",
     "bowlingStyle": "Slow Left-arm Orthodox",
     "price": 180000 
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/S4PBk2nd/Nasum-Ahmed.jpg",
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 8.9,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "N/A",
+    "price": 390000
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/ZsSwK0H/dash.jpg",
+    "playerName": "Dasun Shanaka",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "All-rounder",
+    "rating": 8.5,
+    "batingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm Medium",
+    "price": 280000
   }
 ]
-
