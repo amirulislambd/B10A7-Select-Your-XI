@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";
-const Cart = ({plyer}) => {
+const Cart = ({ plyer, setCoins , coins,selectedPlayers,setSelectedPlayers}) => {
+  const [isSelected, setIsSelected] = useState(false);
+  const coin = coins - plyer.price
+  const handleChoosePlayer = () => {
+    if(coin>=0){
+      (setIsSelected(true), 
+      setCoins(coins - plyer.price));
+      setSelectedPlayers([...selectedPlayers,plyer])
+    }else{
+      alert('Not enough coin to purchase this player')
+      return
+    }
+  };
   return (
     <div className="card bg-base-100 shadow-sm">
       <figure>
@@ -36,7 +48,13 @@ const Cart = ({plyer}) => {
             <span>Price: $</span>
             <span>{plyer.price}</span>
           </p>
-          <button className="btn btn-primary">Buy Now</button>
+          <button
+            onClick={handleChoosePlayer}
+            disabled={isSelected}
+            className="btn btn-primary"
+          >
+            {isSelected ? "Selected" : "Choose Player"}
+          </button>
         </div>
       </div>
     </div>

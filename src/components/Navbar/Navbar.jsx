@@ -1,6 +1,6 @@
 import logo from '../../assets/logo.png'
 import coin from '../../assets/Currency.png'
-const Navbar = () => {
+const Navbar = ({coins}) => {
   return (
     <div>
       <div className="navbar flex shadow  justify-between container mx-auto">
@@ -10,7 +10,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex items-center gap-1 font-bold text-xl">
-          <span>600000000</span>
+          <span>{coins}</span>
           <span>
             <img src={coin} alt="" />
           </span>

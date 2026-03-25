@@ -7,7 +7,7 @@
     "rating": 9.2,
     "batingStyle": "Left-handed",
     "bowlingStyle": "Left-arm Fast-medium",
-    "price": "450,000 USD"
+    "price": 450000
   },
   {
     "playerImage": "https://i.ibb.co.com/Q7rxFmvV/Untitled-18.jpg",
@@ -17,7 +17,7 @@
     "rating": 8.7,
     "batingStyle": "Left-handed",
     "bowlingStyle": "Left-arm Medium-fast",
-    "price": "340,000 USD"
+    "price": 340000 
   },
   {
     "playerImage": "https://i.ibb.co.com/qMvhKDHQ/Najmul-Hossain-Shanto-celebrates-after-scoring-a-century-during-the-Asia-Cup-group-stage-match-again.jpg",
@@ -27,7 +27,7 @@
     "rating": 9.0,
     "batingStyle": "Left-handed",
     "bowlingStyle": "Right-arm Fast",
-    "price": "410,000 USD"
+    "price": 410000
   },
   {
     "playerImage": "https://i.ibb.co.com/9mvbrRsq/Taskin-Ahmed-5.jpg",
@@ -37,7 +37,7 @@
     "rating": 8.1,
     "batingStyle": "Right-handed",
     "bowlingStyle": "N/A",
-    "price": "210,000 USD"
+    "price": 210000
   },
   {
     "playerImage": "https://i.ibb.co.com/1GgXvt9m/l-45516-014756-updates.jpg",
@@ -47,7 +47,7 @@
     "rating": 8.8,
     "batingStyle": "Right-handed",
     "bowlingStyle": "N/A",
-    "price": "320,000 USD"
+    "price": 320000
   },
   {
     "playerImage": 
@@ -58,7 +58,7 @@
     "rating": 8.5,
     "batingStyle": "Right-handed",
     "bowlingStyle": "Right-arm Medium",
-    "price": "280,000 USD"
+    "price": 280000
   },
   {
     "playerImage": "https://i.ibb.co.com/j93RMbqZ/hales-1920x1080-691dbed913bd5.jpg",
@@ -68,7 +68,7 @@
     "rating": 8.9,
     "batingStyle": "Right-handed",
     "bowlingStyle": "N/A",
-    "price": "390,000 USD"
+    "price": 390000 
   },
   {
     "playerImage": "https://i.ibb.co.com/qFmwTFYM/jaker-ali-anik-daily-apand-2509241444.jpg",
@@ -78,7 +78,7 @@
     "rating": 8.6,
     "batingStyle": "Left-handed",
     "bowlingStyle": "Right-arm Off-break",
-    "price": "350,000 USD"
+    "price": 350000
   },
   {
     "playerImage": 
@@ -89,7 +89,7 @@
     "rating": 9.1,
     "batingStyle": "Right-handed",
     "bowlingStyle": "N/A",
-    "price": "380,000 USD"
+    "price": 380000
   },
   {
     "playerImage": "https://i.ibb.co.com/fdQcqg0P/images-1.jpg",
@@ -99,7 +99,7 @@
     "rating": 8.3,
     "batingStyle": "Left-handed",
     "bowlingStyle": "Slow Left-arm Orthodox",
-    "price": "180,000 USD"
+    "price": 180000 
   }
 ]
 
