@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/HomePage/banner/banner";
 import Plyers from "./components/HomePage/Plyers/Plyers";
+import { ToastContainer } from "react-toastify";
 
 
 const FetchPlyers = async()=>{
@@ -27,6 +28,7 @@ function App() {
         coins={coins}
         />
       </Suspense>
+      <ToastContainer />
     </>
   );
 }

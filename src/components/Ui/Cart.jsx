@@ -1,17 +1,31 @@
 import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";
-const Cart = ({ plyer, setCoins , coins,selectedPlayers,setSelectedPlayers}) => {
+import { toast } from "react-toastify";
+const Cart = ({
+  plyer,
+  setCoins,
+  coins,
+  selectedPlayers,
+  setSelectedPlayers,
+}) => {
   const [isSelected, setIsSelected] = useState(false);
-  const coin = coins - plyer.price
+  const coin = coins - plyer.price;
   const handleChoosePlayer = () => {
-    if(coin>=0){
-      (setIsSelected(true), 
-      setCoins(coins - plyer.price));
-      setSelectedPlayers([...selectedPlayers,plyer])
-    }else{
-      alert('Not enough coin to purchase this player')
-      return
+    if (coin >= 0) {
+      (setIsSelected(true),
+        toast.success(plyer.playerName, {
+          position: "top-center",
+          autoClose: 800,
+        }),
+        setCoins(coins - plyer.price));
+      setSelectedPlayers([...selectedPlayers, plyer]);
+    } else {
+      toast.warning("Not enough coin to purchase this player", {
+        position: "top-center",
+        autoClose: 500,
+      });
+      return;
     }
   };
   return (

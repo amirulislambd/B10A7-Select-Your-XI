@@ -1,6 +1,5 @@
-import React from "react";
-import { FaUser } from "react-icons/fa";
-import { MdDelete } from "react-icons/md";
+import { toast } from "react-toastify";
+import SelectedCard from "../../../Ui/SelectedCard";
 
 const SelectedPlyers = ({
   selectedPlayers,
@@ -11,48 +10,34 @@ const SelectedPlyers = ({
   console.log("selectedPlayers", selectedPlayers);
 
   const handleDeleteSelectedPlayer = (player) => {
+    toast.warning(`Delete cart of ${player.playerName}`, {
+      position: "top-center",
+      autoClose: 800,
+    });
     console.log(setSelectedPlayers);
     const filterPlayers = selectedPlayers.filter(
       (selectPlayer) => selectPlayer.playerName !== player.playerName,
     );
     setSelectedPlayers(filterPlayers);
-    setCoins(coins+player.price)
+    setCoins(coins + player.price);
   };
 
   return (
     <div className="container mx-auto space-y-4">
-      {selectedPlayers.map((player, i) => (
-        <div
-          key={i}
-          className="flex justify-between items-center border p-5 rounded-xl"
-        >
-          <div>
-            <div className="flex gap-2 items-center ">
-              <img
-                className="h-[90px] w-[100px] rounded-xl"
-                src={player.playerImage}
-                alt={player.playerName}
-              />
-              <div>
-                <h2 className="font-bold text-2xl flex items-center gap-2">
-                  <FaUser />
-                  {player.playerName}
-                </h2>
-                <p className="text-lg">{player.playingRole}</p>
-                <p className="border-2 shadow-2xl rounded-2xl px-2 border-gray-100">Price: {player.price}</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <button
-              onClick={() => handleDeleteSelectedPlayer(player)}
-              className="btn text-rose-500"
-            >
-              <MdDelete />
-            </button>
-          </div>
+      {selectedPlayers.length === 0 ? (
+        <div className="text-center h-[400px] flex flex-col justify-center">
+          <h2 className="text-2xl font-semibold">No Players Selected Yet</h2>
+          <p>Go to Available tab select players</p>
         </div>
-      ))}
+      ) : (
+        selectedPlayers.map((player, i) => (
+          <SelectedCard
+            key={i}
+            player={player}
+            handleDeleteSelectedPlayer={handleDeleteSelectedPlayer}
+          />
+        ))
+      )}
     </div>
   );
 };
