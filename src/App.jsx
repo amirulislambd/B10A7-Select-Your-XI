@@ -1,9 +1,10 @@
 import { Suspense, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import Banner from "./components/HomePage/banner/banner";
+
 import Plyers from "./components/HomePage/Plyers/Plyers";
 import { ToastContainer } from "react-toastify";
+import Banner from "./components/HomePage/Banner/Banner";
 
 
 const FetchPlyers = async()=>{
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Navbar coins={coins}/>
-      <Banner />
+     <Banner/>
       <Suspense
         fallback={<span className="loading loading-spinner loading-xl "></span>}
       >
