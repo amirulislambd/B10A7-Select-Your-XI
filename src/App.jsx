@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Plyers from "./components/HomePage/Plyers/Plyers";
 import { ToastContainer } from "react-toastify";
 import Banner from "./components/HomePage/Banner/Banner";
+import Footer from "./components/HomePage/Footer/Footer";
 
 
 const FetchPlyers = async()=>{
@@ -29,6 +30,8 @@ function App() {
         coins={coins}
         />
       </Suspense>
+      
+      <Footer/>
       <ToastContainer />
     </>
   );

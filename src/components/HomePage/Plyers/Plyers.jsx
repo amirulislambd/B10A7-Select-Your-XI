@@ -12,7 +12,7 @@ const Plyers = ({ promiseFetchPlyers, setCoins, coins }) => {
 
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between my-8">
+      <div className="flex flex-col md:flex-row items-center space-y-2.5 justify-between my-8">
         {selectType === "available" ? (
           <h1 className="font-bold text-2xl">Available Players</h1>
         ) : (
@@ -20,7 +20,7 @@ const Plyers = ({ promiseFetchPlyers, setCoins, coins }) => {
             Selected Player ({selectedPlayers.length}/{plyers.length})
           </h1>
         )}
-        <div>
+        <div >
           <button
             onClick={() => setSelectType("available")}
             className={`btn ${selectType === "available" ? "bg-[#E7FE29]" : "bg-[white]"}  rounded-r-none rounded-l-xl`}
